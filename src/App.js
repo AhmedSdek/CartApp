@@ -12,7 +12,7 @@ function App() {
     <div>
       <NavBarLogin />
       <Routes>
-        <Route index element= {<HomePage />}/>
+        <Route path='/CartApp' element= {<HomePage />}/>
         <Route path='/login' element= {<LoginPage />}/>
         <Route path='/register' element= {<RegisterPage />}/>
         <Route path='/allcategory' element= {<AllCategory />}/>

@@ -10,7 +10,7 @@ function NavBarLogin() {
   return (
     <Navbar expand="lg" bg='dark' data-bs-theme="dark">
       <Container fluid>
-        <Link className='navbar-brand' style={{width: '10%', textAlign:'center'}} to="/">
+        <Link className='navbar-brand' style={{width: '10%', textAlign:'center'}} to="/CartApp">
           <img style={{height: '50px'}} src={logo} alt=''></img>
         </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
