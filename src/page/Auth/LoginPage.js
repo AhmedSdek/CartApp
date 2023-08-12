@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 function LoginPage() {
     return (
+        <Container >
         <div style={{height:'calc(100vb - 152px )'}}>
             <Container >
             <Row className="py-5 d-flex justify-content-center ">
@@ -39,6 +40,7 @@ function LoginPage() {
             </Row>
         </Container>
         </div>
+        </Container>
     )
 }
 
