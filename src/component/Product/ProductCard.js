@@ -4,7 +4,7 @@ import rate from '../../imeges/rate.png';
 import favImg from '../../imeges/fav-off.png';
 function ProductCard({img}) {
     return (
-        <Col xs= {12} sm={6} md={4} lg={3} className='d-flex'>
+        <Col xs= {12} sm={6} md={4} lg={3} className='d-flex justify-content-center' >
             <Card className='my-2' style={{ width: '18rem' , borderRadius: '8px' , backgroundColor: '#ffffff' , boxShadow : '0 2px 2px 0 rgba(151,151,151,0.5)'}}>
             <Card.Img  variant="top" src={img} />
                 <div className="d-flex justify-content-end mx-2">
