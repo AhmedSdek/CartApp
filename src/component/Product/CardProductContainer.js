@@ -6,7 +6,7 @@ function CardProductContainer({title ,  btntitle, img}) {
     return (
         <Container>
         <SubTitle title={title} btntitle={btntitle}/>
-        <Row>
+        <Row style{{textAlighn:'center'}}>
             <ProductCard img={img}/>
             <ProductCard img={img}/>
             <ProductCard img={img}/>
