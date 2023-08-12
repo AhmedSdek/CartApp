@@ -8,7 +8,7 @@ function LoginPage() {
         <div style={{height:'calc(100vb - 152px )'}}>
             <Container >
             <Row className="py-5 d-flex justify-content-center ">
-                <Col sm="12" className="d-flex flex-column ">
+                <Col sm="6" className="d-flex flex-column ">
                     <label className="mx-auto title-login">تسجيل الدخول</label>
                     <input
                         value=''
